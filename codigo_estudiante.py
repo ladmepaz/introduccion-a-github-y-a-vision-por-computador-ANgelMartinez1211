@@ -44,8 +44,9 @@ def obtener_info_imagen(img):
         num_canales = len(modo)  # Otros modos de imagen
     
     # Obtener las dimensiones de la imagen
-    dimensiones = img.size  # Ingresa valor aquí para obtener (ancho, alto)
-    
+
+        dimensiones = img.size   # Ingresa valor aquí para obtener (ancho, alto)
+
     return num_canales, dimensiones
 
 def imagen_a_arreglo(img):
