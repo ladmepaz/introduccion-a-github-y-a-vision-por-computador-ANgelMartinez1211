@@ -1,13 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct  5 17:00:25 2024
-
-@author: jfrui
-"""
 
 # Completa las funciones de abajo de acuerdo a la descripción de los parámetros de entrada y salida
-import numpy as np
-from PIL import Image
+import numpy as np  # type: ignore
+from PIL import Image # type: ignore
 
 
 def leer_imagen(ruta_imagen):
@@ -50,7 +44,7 @@ def obtener_info_imagen(img):
         num_canales = len(modo)  # Otros modos de imagen
     
     # Obtener las dimensiones de la imagen
-   dimensiones = img.size  # Ingresa valor aquí para obtener (ancho, alto)
+    dimensiones = img.size  # Ingresa valor aquí para obtener (ancho, alto)
     
     return num_canales, dimensiones
 
